@@ -15,6 +15,14 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
+plt.plot(history_1.history['accuracy'])
+plt.plot(history_1.history['val_accuracy'])
+plt.title('Model Accuracy')
+plt.ylabel('Accuracy')
+plt.xlabel('Epoch')
+plt.legend(['Train', 'Validation'], loc='upper left')
+plt.show()
+
 - Bulleted
 - List
 
